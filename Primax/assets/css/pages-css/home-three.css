@@ -10,7 +10,6 @@ Banner Area Three
 .banner-area-three {
   position: relative;
   z-index: 1;
-  margin-top: -125px;
   background-image: url(../../images/home-three/home-three-bg.jpg);
   background-size: cover;
   background-position: center center;
