@@ -143,7 +143,7 @@
 }
 
 .theme-dark .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: var(--orangeColor);
+  color: var(--whiteColor);
 }
 
 .theme-dark .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
