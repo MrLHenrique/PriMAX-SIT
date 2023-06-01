@@ -275,13 +275,11 @@ Banner Area
   background-color: #555;
 }
 
-/*================================
-Barra de
-===================================*/
 /* Personalizando a barra de rolagem no Firefox */
+
 * {
   scrollbar-width: thin;
-  scrollbar-color: #cecdcd #ffffff;
+  scrollbar-color: #473c3c #ffffff;
 }
 
 *::-webkit-scrollbar {
@@ -290,7 +288,7 @@ Barra de
 }
 
 *::-webkit-scrollbar-track {
-  background-color: rgba(185, 185, 185, 0.432);
+  background-color: rgba(0, 117, 250, 0.068);
 }
 
 *::-webkit-scrollbar-thumb {
