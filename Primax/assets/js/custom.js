@@ -355,8 +355,12 @@
     new WOW().init();
 
     // Switch Btn
-    $('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
+    $(document).ready(function() {
+        var switchBox = "<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>";
+        $('.col-lg-4.col-sm-5').append(switchBox);
+      });
 })($);
+
 
 // function to set a given theme/color-scheme
 function setTheme(themeName) {

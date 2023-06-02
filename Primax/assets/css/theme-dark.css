@@ -5,10 +5,10 @@
 }
 
 .switch-box {
-  position: fixed;
-  bottom: 15px;
-  right: 120px;
-  z-index: 9999;
+  display: inline-block;
+  padding: auto;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .switch-box .slider {
