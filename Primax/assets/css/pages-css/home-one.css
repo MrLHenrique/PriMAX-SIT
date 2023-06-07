@@ -59,10 +59,13 @@ Top Header Area
   color: var(--titleColor);
 }
 
-.header-left-color ul li a {
-  color: black;
-}
+/*================================
+important
 
+.header-left-color ul li a {
+  color: black; 
+}
+===================================*/
 .header-left-color ul li:hover a {
   color: var(--orangeColor);
 }
@@ -114,14 +117,13 @@ Banner Area
 ===================================*/
 .banner-area {
   background-color: #f9f7f7;
-  padding: 70px 0;
   overflow: hidden;
   position: relative;
   z-index: 1;
 }
 
 .banner-area::before {
-  content: "";
+  
   left: 0;
   position: absolute;
   background-color: var(--whiteColor);
@@ -2378,4 +2380,115 @@ Services Area End
     margin-right: auto !important;
   }
 }
+
+/*=========================== 
+Contact
+=============================*/
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-8 {
+  width: 66.66%;
+}
+
+.grid-4 {
+  width: 33.33%;
+}
+
+.contato-container {
+  background-color: #e7e0e0;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-8 {
+    width: 100%;
+  }
+  
+  .grid-4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.campo-container {
+  margin-bottom: 20px;
+}
+
+.campo-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campo-container input,
+.campo-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .campo-container {
+    display: inline-block;
+    width: calc(50% - 10px);
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  .campo-container:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+textarea#mensagem {
+  resize: none;
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    width: 100%;
+    font-size: 14px;
+    /* Outros estilos para telas menores */
+  }
+}
+
+.btn-container {
+  margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+}
+
+
+/*# Telefone*/
+
+.telefone-input-container {
+  display: flex;
+  align-items: center;
+}
+
+/*# conteudo*/ 
+
+.contato-container {
+
+  flex-wrap: wrap-reverse;
+}
+
+.contato-item {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+}
+
+.contato-item-icon {
+  margin-right: 20px;
+}
+
+
 /*# sourceMappingURL=home-one.css.map */

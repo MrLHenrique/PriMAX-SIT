@@ -30,6 +30,8 @@
         <link rel="stylesheet" href="assets/css/theme-dark.css">
         <!-- Theme Dark CSS -->
         <link rel="stylesheet" href="assets/css/theme-dark.css">
+
+       
        
         <!-- Title -->
         <title>PriMax Online - Gestão e Tecnologia</title>
@@ -120,15 +122,16 @@
             <!-- Menu For Desktop Device -->
             <div class="desktop-nav nav-area">
                 <div class="container-fluid">
-                    <nav class="navbar navbar-expand-md navbar-light ">
+                  <nav class="navbar navbar-expand-md navbar-light ">
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/images/logos/Primax.png" class="logo-one" alt="Logo">
-                            <img src="assets/images/logos/Primax.png" class="logo-two" alt="Logo">
+                            <img src="assets/images/logos/Logo_Primax_desk.png" class="logo-one" alt="Logo">
+                            <img src="assets/images/logos/Logo_PrimaxTWO _desk.png" class="logo-two" alt="Logo">
                         </a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
+                                    
                                     <a href="index.html" class="nav-link active">
                                         Home 
                               
@@ -140,8 +143,14 @@
                                     
                                 </li>
 
+                                <li class="nav-item">
+                                    <a href="servicos.html" class="nav-link">
+                                        Serviços 
+                                     
+                                 </li>
+
                                  <li class="nav-item">
-                                    <a href="financeiro.html" class="nav-link active">
+                                    <a href="#" class="nav-link active">
                                         Módulos
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
@@ -152,40 +161,36 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="digital.html" class="nav-link active">
+                                            <a href="Controle interno.html" class="nav-link active">
                                                 Controle interno
                                             </a>
                                         </li>
                                         <li class="#">
-                                            <a href="service-details.html" class="nav-link">
+                                            <a href="Desenvolvimento Social.html" class="nav-link">
                                                 Desenvolvimento Social
                                             </a>
                                         </li>
                                         <li class="#">
-                                            <a href="service-details.html" class="nav-link">
+                                            <a href="BI - Inteligência empresarial.html" class="nav-link">
                                                 BI - Inteligência empresarial
                                             </a>
                                             <li class="#">
-                                                <a href="service-details.html" class="nav-link">
+                                                <a href="OUVIDORIA.html" class="nav-link">
                                                     OUVIDORIA  
                                                 </a>
                                             </a>
                                             <li class="#">
-                                                <a href="service-details.html" class="nav-link">
+                                                <a href="Fiscal.html" class="nav-link">
                                                     Fiscal  
                                                 </a> </a>
                                                 <li class="#">
-                                                    <a href="service-details.html" class="nav-link">
+                                                    <a href="Jurídico .html" class="nav-link">
                                                         Jurídico  
                                                     </a>
-                                    
+                                
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="servicos.html" class="nav-link">
-                                        Serviços 
-                                     
-                             	 </li>
+                                  
                                  
                                 <li class="nav-item">
                                     <a href="planos.html" class="nav-link">
@@ -194,7 +199,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="planos.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                        Treinamento
                                     </a>
                                 </li>
@@ -222,6 +227,8 @@
             </div>
         </div>
         <!-- End Navbar Area -->
+        <br>
+        
 
         <!-- Banner Area -->
         <div class="banner-area">
@@ -230,32 +237,152 @@
                     <div class="col-lg-6">
                         <div class="banner-content">
                             <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">Contato</h1>
-                            <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">O primeiro serviço do Brasil especializado em profissionais em gestão tecnologica.       
-                            Uma experiência incomparável em um serviço sem comparação.</p>
+                            <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">Um dos serviço do Brasil especializado em profissionais em gestão tecnologica.       
+                            Uma experiência incomparável em um serviço sem comparação em Tecnologia.</p>
                             <div class="banner-btn wow animate__animated animate__fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
-                                <a href="#" class="default-btn border-radius-5">Atendimento em todo o Brasil</a>
+                                <a href="#" class="default-btn border-radius-5">Digite suas informaçoes de contato</a>
                     
                             </div>
                         </div>
                     </div>
+       
+                    
 
-        <!-- Footer Area -->
-        <footer class="footer-area footer-area-bg">
-            <div class="container">
-              
+                    <div class="container">
+                        <div class="row">
+                          <div class="grid-8" data-aos="fade-right">
+                          <!-- FORMULÁRIO -->
+                          <form id="form-contato" action="index.html" method="post" class="form-validation form-contato wow animate__animated animate__fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms">
+                      
+                                             <!-- Nome -->
+                            <div class="row">
+                              <div class="grid-6 grid-m-12 grid-s-12 campo-container">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" maxlength="255" class="campo" placeholder="Digite seu nome" required>
+                              </div>
+                      
+                              <div class="grid-6 grid-m-12 grid-s-12 campo-container">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" maxlength="255" class="campo" placeholder="Digite seu e-mail" required>
+                              </div>
+                            </div>
+
+                                                      <!-- telefone -->
+
+                            <div class="row">
+                                <div class="grid-6 grid-m-12 grid-s-12 campo-container">
+                                        <label for="telefone">Telefone</label>
+                                        <input type="tel" name="telefone" id="telefone" class="campo telefone" placeholder="Digite seu telefone" oninput="limitarTelefone(this)" required>
+            
+                                    </div>
+
+                                                <!-- Assunto -->
+
+                              <div class="grid-6 grid-m-12 grid-s-12 campo-container">
+                                <label for="assunto">Assunto</label>
+                                <input type="text" name="assunto" id="assunto" maxlength="255" class="campo" placeholder="Digite um assunto" required>
+                              </div>
+                            </div>
+                      
+                                            <!-- Mensagem -->
+
+                            <div class="campo-container">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea name="mensagem" id="mensagem" maxlength="1000" class="campo" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                                <div id="mensagem-count">0/1000</div>
+                              </div>
+                              
+                      
+                            <div class="recaptcha-container">
+                              <div class="recaptcha-el" data-form="form-contato" data-key="6LfW3FkcAAAAAKjT7dn6CKdxtzz3rtL20qyZ5AsY"></div>
+                            </div>
+                      
+                            <div class="banner-btn wow animate__animated animate__fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                <button type="submit" id="enviar" class="default-btn border-radius-5">Enviar</button>
+                              </div>
+                              
+                          </form>
+                          <!-- //FORMULÁRIO -->
+                        </div>
+
+
+                        <div class="grid-4 contato-lateral" data-aos="fade-left">
+                            <!-- CONTATO -->
+                            <div class="contato-container wow animate__animated animate__fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms">
+                              <div class="row contato-item">
+                                <div class="grid-2 contato-item-icon">
+                                  <i class="fas fa-phone fa-flip-horizontal"></i>
+                                </div>
+                                <div class="grid-10">
+                                  <h3><i class="bx bx-phone icon"></i> Telefone para Contato</h3>
+                                  <p class="telefone wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">(16) 3231-9194</p>
+                                </div>
+                              </div>
+
+                              <br><br>
+
+                              <div class="row contato-item">
+                                <div class="grid-2 contato-item-icon">
+                                  <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="grid-10">
+                                  <h3><i class='bx bxl-whatsapp'></i> WhatsApp</h3>
+                                  <p class="telefone wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">(16) 99103-8606</p>
+                                  <p class="telefone wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">(16) 99726-4618</p>
+                                </div>
+                              </div>
+
+                              <br><br>
+
+                              <div class="row contato-item">
+                                <div class="grid-2 contato-item-icon">
+                                  <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="grid-10">
+                                  <h3><i class="bx bx-envelope icon"></i> E-mail</h3>
+                                  <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">suporte@primaxonline.com.br</p>
+                                </div>
+                              </div>
+
+                              <br><br>
+
+                              <div class="row contato-item">
+                                <div class="grid-2 contato-item-icon">
+                                  <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="grid-10">
+                                  <h3><i class='bx bx-map icon'></i> Endereço</h3>
+                                  <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">R. Siqueira Campos, 563 - Centro
+                                    Guariba/SP CEP: 14840-000</p>
+                                </div>
+
+                            
+
+                              </div>
+                            </div>
+                          </div>
+                                                <!-- //CONTATO END -->
+
+                 
+       <!-- Footer Area -->
+    <footer class="footer-area footer-area-bg">
+        <div class="container">
+
 
             <div class="copyright-area">
                 <div class="container">
                     <div class="copy-right-text text-center">
                         <p>
-                            Copyright @<script>document.write(new Date().getFullYear())</script>  PriMAX Online. All Rights Reserved by 
-                            <a href="https://www.primaxonline.com.br/logon/index.php" target="_blank">PriMAX Online</a> 
+                            Copyright @
+                            <script>document.write(new Date().getFullYear())</script> PriMAX Online. All Rights Reserved
+                            by
+                            <a href="https://www.primaxonline.com.br/logon/index.php" target="_blank">PriMAX Online</a>
                         </p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Footer Area End -->
+    </footer>
+    <!-- Footer Area End -->
         
 
 											
@@ -278,6 +405,34 @@
 			
 											
 	</div>
+
+    <!-- Mensagem -->
+
+    <script>
+        const mensagemTextarea = document.getElementById('mensagem');
+const mensagemCount = document.getElementById('mensagem-count');
+
+mensagemTextarea.addEventListener('input', function () {
+  const mensagemLength = mensagemTextarea.value.length;
+  mensagemCount.textContent = mensagemLength + '/1000';
+
+  if (mensagemLength > 1000) {
+    mensagemTextarea.value = mensagemTextarea.value.slice(0, 1000);
+    mensagemCount.textContent = '1000/1000';
+  }
+});
+    </script>
+
+    <!-- Telefone -->
+
+    <script>
+        function limitarTelefone(elemento) {
+          const valor = elemento.value.replace(/[^0-9]/g, ''); // Remove caracteres não numéricos
+          elemento.value = valor.slice(0, 11); // Limita o valor ao número máximo de dígitos (11)
+        }
+        </script>
+
+
 
        <!-- Jquery Min JS -->
        <script src="assets/js/jquery.min.js"></script>
@@ -307,6 +462,17 @@
        <script src="assets/js/custom.js"></script>
         <!-- Barra  JS -->
         <script src="assets/js/barra.js"></script>
-
+        <!-- codigo DD+ -->
+        <script src="caminho/para/inputmask.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              Inputmask({ 
+                mask: '+99 (999) 99999-9999', 
+                placeholder: '_', 
+                clearMaskOnLostFocus: false 
+              }).mask('.telefone');
+            });
+          </script>
+          
     </body>
 </html>

@@ -758,7 +758,7 @@ Responsive Css
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .top-header-bg-three {
-    background-color: #f0eeee;
+    background-color: #000000;
   }
   .banner-area-three {
     margin-top: 0;

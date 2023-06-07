@@ -1236,4 +1236,23 @@ Responsive Css
     display: none;
   }
 }
+
+
+.desktop-nav .navbar-nav .nav-link.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ff0000; /* Cor do traço */
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.desktop-nav .navbar-nav .nav-link.active.show-line::before {
+  opacity: 1;
+}
+
+
 /*# sourceMappingURL=navbar.css.map */

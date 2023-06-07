@@ -387,3 +387,32 @@ function toggleTheme() {
       document.getElementById('slider').checked = true;
     }
 })();
+
+
+// contact
+
+// Seleciona todos os elementos com a classe "telefone"
+const telefones = document.querySelectorAll('.telefone');
+
+// Itera sobre os elementos e remove os parênteses e espaços em branco
+telefones.forEach((telefone) => {
+  telefone.textContent = telefone.textContent.replace(/[\(\)\s]/g, '');
+});
+
+
+const navLinks = document.querySelectorAll('.desktop-nav .navbar-nav .nav-link');
+
+navLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    // Remover classe 'show-line' de todos os links
+    navLinks.forEach(function(link) {
+      link.classList.remove('show-line');
+    });
+
+    // Adicionar classe 'show-line' ao link clicado
+    this.classList.add('show-line');
+  });
+});
+
+
+

@@ -416,7 +416,13 @@
 .theme-dark .user-all-form .contact-form {
   background-color: var(--bgColor);
 }
-
+.theme-dark.contact {
+  background-color: var(--cardColor);
+}
+.theme-dark.info-card.card {
+  background-color: var(--bgColor);
+}
+.theme-dark
 .theme-dark .coming-soon-area {
   background-color: var(--cardColor);
 }
@@ -430,5 +436,14 @@
   .theme-dark .choose-card {
     background-color: var(--cardColor);
   }
+}
+
+.theme-dark .contato-container{
+  background-color: var(--cardColor);
+}
+
+
+.theme-dark .top-header-bg-three{
+  background-color: var(--cardColor);
 }
 /*# sourceMappingURL=theme-dark.css.map */
