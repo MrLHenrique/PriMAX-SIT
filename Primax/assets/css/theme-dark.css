@@ -171,7 +171,7 @@
 }
 
 .theme-dark .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.active {
-  color: var(--orangeColor);
+  color: var(--whiteColor);
 }
 
 .theme-dark .mobile-responsive-nav .mean-container .mean-bar {

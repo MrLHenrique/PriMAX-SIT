@@ -402,17 +402,8 @@ telefones.forEach((telefone) => {
 
 const navLinks = document.querySelectorAll('.desktop-nav .navbar-nav .nav-link');
 
-navLinks.forEach(function(link) {
-  link.addEventListener('click', function() {
-    // Remover classe 'show-line' de todos os links
-    navLinks.forEach(function(link) {
-      link.classList.remove('show-line');
-    });
-
-    // Adicionar classe 'show-line' ao link clicado
-    this.classList.add('show-line');
-  });
-});
 
 
 
+
+  
