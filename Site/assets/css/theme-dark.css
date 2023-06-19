@@ -446,4 +446,16 @@
 .theme-dark .top-header-bg-three{
   background-color: var(--cardColor);
 }
+
+.theme-dark .about-list a {
+  color: white; /* Defina a cor do texto */
+  text-decoration: none; /* Remova o sublinhado */
+}
+
+.theme-dark .about-list a:hover {
+  color: #0a58ca; /* Defina a cor do texto em hover */
+}
+
+
+
 /*# sourceMappingURL=theme-dark.css.map */
