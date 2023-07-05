@@ -192,7 +192,7 @@ Banner Area Two
   left: 0;
   width: 55%;
   height: 100%;
-  background-image: url(../../images/home-two/home-two-bg.png);
+  background-image: url;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ Banner Area Two
 }
 
 .banner-content-two h1 {
-  font-size: 56px;
+  font-size: 30px;
   margin-bottom: 25px;
   font-weight: 700;
   line-height: 1.2;
@@ -1431,7 +1431,7 @@ Contact Area End
     max-width: 100%;
   }
   .banner-content-two h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .banner-content-two p {
@@ -1686,7 +1686,7 @@ Contact Area End
     max-width: 100%;
   }
   .banner-content-two h1 {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .banner-content-two p {
@@ -1852,7 +1852,7 @@ Contact Area End
     font-size: 15px;
   }
   .banner-content-two h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
   .banner-slider {
     position: relative;
@@ -1931,7 +1931,7 @@ Contact Area End
     position: inherit;
   }
   .banner-content-two h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
   .about-counter {
     padding: 25px 10px;
@@ -1984,7 +1984,7 @@ Contact Area End
     margin-right: auto !important;
   }
   .banner-content-two h1 {
-    font-size: 52px;
+    font-size: 25px;
   }
   .banner-slider .owl-nav {
     margin-top: 0;
@@ -2037,4 +2037,6 @@ Contact Area End
     margin-bottom: 0;
   }
 }
+
+
 /*# sourceMappingURL=home-two.css.map */

@@ -76,7 +76,7 @@
 }
 
 .footer-contact:hover .icon i {
-  background-color: var(--greenColor);
+  background-color: blue;
   border-radius: 50px;
 }
 
@@ -215,13 +215,13 @@
 }
 
 .newsletter-area .newsletter-form .subscribe-btn:hover {
-  background-color: var(--greenColor);
+  background-color: blue;
 }
 
 .newsletter-area .newsletter-form .validation-danger {
   font-size: 18px;
   margin-top: 5px;
-  color: red;
+  color: rgb(0, 162, 255);
 }
 
 .footer-top-two {
@@ -286,7 +286,7 @@
 }
 
 .footer-contact-two:hover .icon i {
-  background-color: var(--greenColor);
+  background-color: blue;
   border-radius: 50px;
 }
 
@@ -309,7 +309,7 @@
 }
 
 .copy-right-text p a:hover {
-  color: var(--greenColor);
+  color: blue;
 }
 
 /*=================================
@@ -587,4 +587,106 @@ Responsive Css
     font-size: 14px;
   }
 }
+
+/*footer*/
+
+/* Footer Top */
+.footer-top{
+  padding-top: 70px;
+  padding-bottom: 10px;
+  background-color: #000213;
+  color: white;
+  font-size: 15px;
+}
+.footer-top .footer-box{
+  margin-bottom: 15px;
+  background-color: #383b48;
+  border-top: 4px solid blue;
+  padding: 50px;
+}
+.footer-top .footer-box .logo{
+  margin-bottom: 15px;
+}
+
+.footer-top .title{
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-top .footer-links ul {
+  list-style: none;
+}
+.footer-top .footer-links ul li{
+  padding-bottom: 1px;
+}
+
+.footer-top .footer-links ul li .links{
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+.footer-top a{
+  color:rgb(0, 162, 255);
+}
+.footer-top .footer-links ul li .links:hover {
+  color: rgb(0, 162, 255);
+}
+.footer-top .footer-news-letter form input{
+  padding: 3px;
+}
+.footer-top .footer-news-letter form button{
+  padding: 5px 10px;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Footer Bottom */
+.footer-bottom{
+  background-color: black;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  
+}
+
+.custom-dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 10px;
+  list-style: none;
+}
+
+.custom-dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.custom-dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.custom-dropdown-menu li a:hover {
+  color: rgb(0, 162, 255);
+}
+
+.nav-link-footer:hover .custom-dropdown-menu {
+  display: block;
+}
+
+.custom-dropdown-parent:hover .custom-dropdown-menu {
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+
 /*# sourceMappingURL=footer.css.map */

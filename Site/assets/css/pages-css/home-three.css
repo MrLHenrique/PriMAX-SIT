@@ -30,7 +30,7 @@ Banner Area Three
 }
 
 .banner-img-three img {
-  border-bottom-left-radius: 80%;
+  border-bottom-left-radius: 25%;
 }
 
 /*================================
@@ -172,12 +172,14 @@ Services Tab Area
   padding: 0;
   list-style: none;
   text-align: center;
+ 
 }
 
 .services-tab .tabs li {
   display: inline-block;
   line-height: initial;
   margin-right: 25px;
+  
 }
 
 .services-tab .tabs li a {

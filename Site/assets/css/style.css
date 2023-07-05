@@ -62,7 +62,7 @@ Default CSS
   --bodyFonts: 'Roboto', sans-serif;
   --orangeColor: #0a58ca;
   --lightColor: #6c757d;
-  --greenColor: #0ebc40;
+  --greenColor: #31c0d5;
   --titleColor: #00042e;
   --bodyColor: #4e4e4e;
   --whiteColor: #ffffff;
@@ -201,7 +201,6 @@ img {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  text-transform: capitalize;
   background-color: var(--orangeColor);
   border: none;
   outline: none;
@@ -251,7 +250,7 @@ Section Title Style
   display: inline-block;
   line-height: 0;
   font-size: 15px;
-  color: var(--greenColor);
+  color: #0EA4BA;
   padding-left: 0;
   position: relative;
   font-weight: 500;
@@ -315,7 +314,7 @@ Section Title Style
 }
 
 .section-title h2 {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   margin-top: 0;
   line-height: 1.2;
@@ -353,9 +352,6 @@ Section Title Style
 /*================================
 Section Title Style End
 ===================================*/
-.work-area::before {
-  background-image: url(../images/work-img/work-bg.jpg);
-}
 
 .testimonial-area::before {
   background-image: url(../images/testimonial/testimonial-bg.jpg);
@@ -1300,6 +1296,10 @@ Responsive Css
 .about-list a:hover {
   color: #0a58ca;
 }
+
+/* Inner_banner*/
+
+
 
 
 /*# sourceMappingURL=style.css.map */

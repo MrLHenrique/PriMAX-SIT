@@ -474,7 +474,7 @@ Choose Area
   -webkit-transform: skewY(165deg);
           transform: skewY(165deg);
   z-index: -2;
-  border: 2px solid var(--greenColor);
+  border: 2px solid #0EA4BA;
   opacity: 0;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -559,7 +559,6 @@ Work Area
   right: 0;
   height: 100%;
   width: 40%;
-  background-color: var(--greenColor);
   opacity: 0.9;
 }
 
@@ -1475,7 +1474,7 @@ Services Area End
     margin-right: auto;
   }
   .banner-content h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
   .banner-content p {
